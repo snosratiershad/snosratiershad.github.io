@@ -1,3 +1,5 @@
+import os
+
 AUTHOR = 'Salar Nosrati-Ershad'
 SITENAME = 'snosratiershad.github.io'
 SITEURL = ""
@@ -33,3 +35,10 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Theme
+SIMPLE_THEME = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "themes", "simple"
+)
+
+THEME = SIMPLE_THEME
