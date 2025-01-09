@@ -1,2 +1,2 @@
 ghp-import==2.1.0
-pelican==4.9.1
+pelican[markdown]==4.10.2
